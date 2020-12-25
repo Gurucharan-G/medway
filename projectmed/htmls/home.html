@@ -1,0 +1,54 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index Page</title>
+	<link rel="stylesheet" href="{%static 'home.css'%}">
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<div style= "background-image: linear-gradient(80deg,#00ffff,	#ffff00);">
+<center> <font size="12">MEDICAL GATE-WAY</font> </center>
+</div>
+
+<div class="topnav">
+  <a class="active" href="index.php">Home</a>
+  <a href="https://www.medicalnewstoday.com/">News</a>
+  <a href="https://www.icmr.gov.in/">ICMR</a>
+  <a href="#about">About</a>
+</div>
+
+
+ 
+
+
+                                       <!–– doctor login start ––>
+    <div style="background-color:darkturquoise">
+    <div style="display: block">
+        
+  <form  class="logindoc" name="form" action="index.php" method="post">
+        
+        <h2 style="color:red">DOCTOR LOGIN</h2>    
+            
+        <input type="name" id="username" name="username" placeholder="username" required autocomplete="off"    >  <br>
+        <input type="password" id="pass" name="pass" placeholder="password" required autocomplete="off"    ><br>    
+        <input style="background-color: #e4f00e" type="submit" name="submitdoc" value="submit" "><br><br>
+        <a href="docsignup.php" style="color: white">Click to create new account</a>
+
+
+                                         
+   </form> 
+        
+    
+    </div> </div>                                     <!––doctor login end––>
+
+</body>
+</html>
